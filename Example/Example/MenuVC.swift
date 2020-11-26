@@ -15,15 +15,46 @@ class MenuVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.edgesForExtendedLayout = []
+        
         menu = iMenu(frame: CGRect.zero, background: UIColor.red)
+        self.view.layer.backgroundColor = UIColor.white.cgColor
         self.view.addSubview(menu!)
+        
+        self.addBarButton()
     }
     
+    func addBarButton(){
+        let homeBtn: UIButton = UIButton(type: UIButton.ButtonType.custom)
+        homeBtn.setImage( self.resizeImage(s: "man"), for: [])
+        homeBtn.addTarget(self, action: #selector(action), for: UIControl.Event.touchUpInside)
+        homeBtn.frame = CGRect(x: 0, y: 0, width: 30, height: 30)
+
+        let homeButton = UIBarButtonItem(customView: homeBtn)
+        self.navigationItem.setRightBarButtonItems([homeButton], animated: true)
+    }
+    
+    @objc func action(){
+         print("clicked")
+        menu?.prev()
+    }
+    
+    func resizeImage(s: String) -> UIImage {
+        let image = UIImage(named: s)
+        let newSize: CGSize = CGSize(width: 20,  height: 20 )
+        let rect = CGRect(x: 0, y: 0, width: newSize.width, height: newSize.height)
+
+        UIGraphicsBeginImageContextWithOptions(newSize, false, 1.0)
+        image!.draw(in: rect)
+        let newImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+
+        return newImage!
+    }
 
     override func viewWillLayoutSubviews() {
         let w = self.view.frame.size.width;
         let h = self.view.frame.size.height;
-        menu?.frame = CGRect(x: w * 0.0, y: h * 0.05, width: w * 1.0, height: h * 0.95)
+        menu?.frame = CGRect(x: w * 0.0, y: h * 0.0, width: w * 1.0, height: h * 1.0)
     }
 
     
