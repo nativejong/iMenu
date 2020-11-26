@@ -1,0 +1,6 @@
+framework module iMenu {
+  umbrella header "iMenu.h"
+
+  export *
+  module * { export * }
+}
