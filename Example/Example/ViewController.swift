@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import iMusic
+//import iMusic
 
 class ViewController: UIViewController {
 //    var music : iMusic?

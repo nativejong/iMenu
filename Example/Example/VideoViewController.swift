@@ -11,7 +11,7 @@ import UIKit
 
 
 class VideoViewController: UIViewController {
-    var music : iMusic?
+//    var music : iMusic?
 
     override func viewDidLoad() {
         super.viewDidLoad()

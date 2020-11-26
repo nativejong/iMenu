@@ -8,15 +8,17 @@
 
 import UIKit
 //import iMusic
+//import iMenu
+import iMenu
 
 class MusicViewController: UIViewController {
-    var music : iMusic?
+//    var menu : iMenu?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         self.edgesForExtendedLayout = []
-//        music = iMusic(frame: CGRect.zero, video: false)
-//        self.view.addSubview(music!)
+//        menu = iMenu(
+//        self.view.addSubview(menu!)
     }
     
 
