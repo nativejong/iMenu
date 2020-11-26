@@ -12,14 +12,11 @@ class Tabs: UITabBarController, UITabBarControllerDelegate{
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        let music = MusicNavigationController()
-        let video = VideoNavigationController()
+        let menuNV = MenuNV()
         
-        music.tabBarItem = UITabBarItem(title: "Music", image: self.resizeImage( s : "notes" ), tag: 0 )
-        video.tabBarItem = UITabBarItem(title: "Video", image: self.resizeImage( s : "video" ), tag: 1 )
+        menuNV.tabBarItem = UITabBarItem(title: "Music", image: self.resizeImage( s : "notes" ), tag: 0 )
 
-        self.viewControllers = [music, video]
+        self.viewControllers = [menuNV]
     }
     
     
