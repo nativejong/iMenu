@@ -27,6 +27,7 @@ class MenuVC: UIViewController {
     func addBarButton(){
         homeBtn = UIButton(type: UIButton.ButtonType.custom)
         homeBtn?.setTitle("◀︎", for: UIControl.State.normal)
+        homeBtn?.titleLabel?.font = UIFont.systemFont(ofSize: UIFont.systemFontSize * 1.5 )
         homeBtn?.addTarget(self, action: #selector(action), for: UIControl.Event.touchUpInside)
         homeBtn?.frame = CGRect(x: 0, y: 0, width: 30, height: 30)
 
@@ -38,7 +39,9 @@ class MenuVC: UIViewController {
     
     @objc func action(){
          print("clicked")
-        menu?.prev()
+        if let rv = menu?.prev(){
+            self.homeBtn?.isHidden = rv
+        }
     }
     
     func resizeImage(s: String) -> UIImage {
