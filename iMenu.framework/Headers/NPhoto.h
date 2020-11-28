@@ -12,7 +12,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NPhoto : NSObject
-- (void)taskWithName:(NSString*)u date:(NSString*)d local:(void (^)(UIImage* i, NSString *fn))clocal;
+//- (void)taskWithName:(NSString*)u date:(NSString*)d local:(void (^)(UIImage* i, NSString *fn))clocal;
+- (void)taskWithName:(NSString*)u date:(nullable NSString*)d local:(void (^)(UIImage* i, NSString *fn))clocal;
 
 @end
 
