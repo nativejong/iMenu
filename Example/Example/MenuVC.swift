@@ -11,6 +11,7 @@ import iMenu
 
 class MenuVC: UIViewController {
     var menu : iMenu?
+    var homeBtn : UIButton?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,13 +25,15 @@ class MenuVC: UIViewController {
     }
     
     func addBarButton(){
-        let homeBtn: UIButton = UIButton(type: UIButton.ButtonType.custom)
-        homeBtn.setImage( self.resizeImage(s: "man"), for: [])
-        homeBtn.addTarget(self, action: #selector(action), for: UIControl.Event.touchUpInside)
-        homeBtn.frame = CGRect(x: 0, y: 0, width: 30, height: 30)
+        homeBtn = UIButton(type: UIButton.ButtonType.custom)
+        homeBtn?.setTitle("◀︎", for: UIControl.State.normal)
+        homeBtn?.addTarget(self, action: #selector(action), for: UIControl.Event.touchUpInside)
+        homeBtn?.frame = CGRect(x: 0, y: 0, width: 30, height: 30)
 
-        let homeButton = UIBarButtonItem(customView: homeBtn)
-        self.navigationItem.setRightBarButtonItems([homeButton], animated: true)
+        homeBtn?.isHidden = true
+        
+        let homeButton = UIBarButtonItem(customView: homeBtn!)
+        self.navigationItem.setLeftBarButtonItems([homeButton], animated: true)
     }
     
     @objc func action(){
@@ -67,11 +70,14 @@ class MenuVC: UIViewController {
     
     func watchMenu() {
         self.menu?.watch(true, city: { (a : [AnyHashable : Any]) in
-            
+            self.homeBtn?.isHidden = false
+
         }, shop: { (b : [AnyHashable : Any]) in
-            
+            self.homeBtn?.isHidden = false
+
         }, menu: { ( c : [AnyHashable : Any]) in
-            
+            self.homeBtn?.isHidden = false
+
         })
     }
     

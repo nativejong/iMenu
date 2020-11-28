@@ -32,7 +32,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, retain) Progress *progress;
 @property BOOL showItemWithIcon;
 
-- (void) prev;
+//- (void) prev;
+- (BOOL) prev;
 
 - (void)watch:(BOOL)b city:(void(^)(NSDictionary *b))ct shop:(void(^)(NSDictionary *c))sh menu:(void(^)(NSDictionary *a))lx;
 
