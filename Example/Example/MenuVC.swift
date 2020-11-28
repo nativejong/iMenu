@@ -18,7 +18,7 @@ class MenuVC: UIViewController {
         self.edgesForExtendedLayout = []
         
         menu = iMenu(frame: CGRect.zero, background: UIColor.red)
-        self.view.layer.backgroundColor = UIColor.white.cgColor
+        self.view.layer.backgroundColor = UIColor.red.cgColor
         self.view.addSubview(menu!)
         
         self.addBarButton()
