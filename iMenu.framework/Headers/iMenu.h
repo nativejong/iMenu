@@ -10,7 +10,7 @@
 #import <UIKit/UIKit.h>
 #import "OMain.h"
 #import "Progress.h"
-#import "Archive.h"
+//#import "Archive.h"
 
 //! Project version number for iMenu.
 FOUNDATION_EXPORT double iMenuVersionNumber;
@@ -26,8 +26,6 @@ NS_ASSUME_NONNULL_BEGIN
 @interface iMenu : UIView
 
 - (instancetype)initWithFrame:(CGRect)frame background:(UIColor*)b;
-
-@property (nonatomic, retain) Archive *archive;
 @property (nonatomic, retain) OMain *city;
 @property (nonatomic, retain) OMain *shop;
 @property (nonatomic, retain) OMain *menu;
