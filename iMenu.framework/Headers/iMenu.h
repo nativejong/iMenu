@@ -10,15 +10,12 @@
 #import <UIKit/UIKit.h>
 #import "OMain.h"
 #import "Progress.h"
-//#import "Archive.h"
 
 //! Project version number for iMenu.
 FOUNDATION_EXPORT double iMenuVersionNumber;
 
 //! Project version string for iMenu.
 FOUNDATION_EXPORT const unsigned char iMenuVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <iMenu/PublicHeader.h>
 
 
 NS_ASSUME_NONNULL_BEGIN
@@ -32,7 +29,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, retain) Progress *progress;
 @property BOOL showItemWithIcon;
 
-//- (void) prev;
 - (BOOL) prev;
 
 - (void)watch:(BOOL)b city:(void(^)(NSDictionary *b))ct shop:(void(^)(NSDictionary *c))sh menu:(void(^)(NSDictionary *a))lx;

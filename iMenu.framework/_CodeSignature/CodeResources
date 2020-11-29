@@ -104,14 +104,6 @@
 		<data>
 		LeQgFrjgpImRUh1u2EL3cRZrGYs=
 		</data>
-		<key>Headers/Panda.h</key>
-		<data>
-		5qtVi//Sz+UztGR2L+Z8jIMHzHk=
-		</data>
-		<key>Headers/ParseCfg.h</key>
-		<data>
-		hipgxsEkSoUoo6kZmA3lDy7wRsw=
-		</data>
 		<key>Headers/Progress.h</key>
 		<data>
 		eUtuvUjRPS3/Tk5SGgrbUKPKcJ0=
@@ -124,29 +116,17 @@
 		<data>
 		hq+ZV0YXvvdOHCO0Ot+LXxB0WOc=
 		</data>
-		<key>Headers/Spider+File.h</key>
-		<data>
-		m+GnS2psyUDXOGGKZ46Of6MYsn0=
-		</data>
-		<key>Headers/Spider+Network.h</key>
-		<data>
-		Qib1XSo67bZIIOpa3eg22jWTAKs=
-		</data>
-		<key>Headers/Spider.h</key>
-		<data>
-		bhZnH3ah+c3hLG52GzFdtJEDLRM=
-		</data>
 		<key>Headers/Text.h</key>
 		<data>
 		eG65pbCzEYMSaa3S1MBHWcOtMWA=
 		</data>
 		<key>Headers/iMenu.h</key>
 		<data>
-		z+QwRppp2DCB6mtOAYyIgL4j6Qs=
+		5dLtohvbpHZpwsLY9mD9saMPe5c=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		c7+LpA6feR6QkaVdawOnM21hHi0=
+		gFvAC99dTKO79hZfT8Cg0nNbPMY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -330,20 +310,6 @@
 			Rn3ZMu8A9KvSo5R8XxEjiGmoR+Z/5DMfPIgV00Z/cZE=
 			</data>
 		</dict>
-		<key>Headers/Panda.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			wsgxlfFPX81SK/VkG6WpmQBhj2iveUmH4Aep7/4MR3U=
-			</data>
-		</dict>
-		<key>Headers/ParseCfg.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tyY6FuQ5T+fgul0xnhjmK3ct0jEWXQA5ZM5lkErruK4=
-			</data>
-		</dict>
 		<key>Headers/Progress.h</key>
 		<dict>
 			<key>hash2</key>
@@ -365,27 +331,6 @@
 			ixdWkZxUur5BSVLeoIcJXLkjFvWHKm4wOa65FrudxJM=
 			</data>
 		</dict>
-		<key>Headers/Spider+File.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			vTfQjFfGK7kH7en/D3gm7Z9YYcakvxER7D9NRNg9UPo=
-			</data>
-		</dict>
-		<key>Headers/Spider+Network.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/S9TD9FVPWRtB+3t++IgXcl74VQhWt7Cs9kdWdZ0JyU=
-			</data>
-		</dict>
-		<key>Headers/Spider.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			w4e8igkyQ5FR8yq7SPNRgrMuK6oMwCPbinNEHYK1xEU=
-			</data>
-		</dict>
 		<key>Headers/Text.h</key>
 		<dict>
 			<key>hash2</key>
@@ -397,7 +342,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EfPrAkOIW/xGBEvlk/6bxoeFD7dxT+oqa4f4veH3k4g=
+			/uRgMNSpc53OIGb3MXOZpykwCIGo1tJxWX5IcNLNQ64=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

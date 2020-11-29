@@ -17,8 +17,9 @@ class MenuVC: UIViewController {
         super.viewDidLoad()
         self.edgesForExtendedLayout = []
         
-        menu = iMenu(frame: CGRect.zero, background: UIColor.red)
-        self.view.layer.backgroundColor = UIColor.red.cgColor
+        let c = UIColor(red: 120/255.0, green: 0/255.0, blue: 0/255.0, alpha: 1.0 )
+        menu = iMenu(frame: CGRect.zero, background: c )
+        self.view.layer.backgroundColor = c.cgColor
         self.view.addSubview(menu!)
         
         self.addBarButton()
@@ -27,10 +28,11 @@ class MenuVC: UIViewController {
     func addBarButton(){
         homeBtn = UIButton(type: UIButton.ButtonType.custom)
         homeBtn?.setTitle("◀︎", for: UIControl.State.normal)
-        homeBtn?.titleLabel?.font = UIFont.systemFont(ofSize: UIFont.systemFontSize * 1.5 )
+        homeBtn?.titleLabel?.font = UIFont.systemFont(ofSize: UIFont.systemFontSize * 1.1 )
         homeBtn?.addTarget(self, action: #selector(action), for: UIControl.Event.touchUpInside)
-        homeBtn?.frame = CGRect(x: 0, y: 0, width: 30, height: 30)
-
+        homeBtn?.backgroundColor = UIColor.black
+        homeBtn?.layer.cornerRadius = 5
+        
         homeBtn?.isHidden = true
         
         let homeButton = UIBarButtonItem(customView: homeBtn!)

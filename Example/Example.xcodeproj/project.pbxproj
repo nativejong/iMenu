@@ -15,7 +15,6 @@
 		9E92E55D256D516B0073BFA6 /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E92E55C256D516B0073BFA6 /* Tabs.swift */; };
 		9EB40CCC256FEA800004CB1C /* MenuNV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB40CCB256FEA800004CB1C /* MenuNV.swift */; };
 		9EB40CCE256FEA960004CB1C /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB40CCD256FEA960004CB1C /* MenuVC.swift */; };
-		9EFEA56A256C113700C7A870 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EFEA569256C113700C7A870 /* Media.xcassets */; };
 		9EFEA56C256C118000C7A870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EFEA56B256C118000C7A870 /* Assets.xcassets */; };
 		E91B1589B52B78B62D574F01 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 402A965C6894FDF96F528BDB /* Pods_Example.framework */; };
 /* End PBXBuildFile section */
@@ -34,7 +33,6 @@
 		9E92E55C256D516B0073BFA6 /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
 		9EB40CCB256FEA800004CB1C /* MenuNV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuNV.swift; sourceTree = "<group>"; };
 		9EB40CCD256FEA960004CB1C /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
-		9EFEA569256C113700C7A870 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		9EFEA56B256C118000C7A870 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC0B2F0510DFCBC5A45914FB /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,7 +84,6 @@
 				9E3991C62520201C00C1CC95 /* Info.plist */,
 				9E3991C32520201C00C1CC95 /* LaunchScreen.storyboard */,
 				9E3991BE2520201A00C1CC95 /* Main.storyboard */,
-				9EFEA569256C113700C7A870 /* Media.xcassets */,
 				9EB40CCB256FEA800004CB1C /* MenuNV.swift */,
 				9EB40CCD256FEA960004CB1C /* MenuVC.swift */,
 				9E3991D02520206500C1CC95 /* Podfile */,
@@ -168,7 +165,6 @@
 			files = (
 				9E3991C52520201C00C1CC95 /* LaunchScreen.storyboard in Resources */,
 				9E3991D12520206600C1CC95 /* Podfile in Resources */,
-				9EFEA56A256C113700C7A870 /* Media.xcassets in Resources */,
 				9E3991C02520201A00C1CC95 /* Main.storyboard in Resources */,
 				9EFEA56C256C118000C7A870 /* Assets.xcassets in Resources */,
 			);

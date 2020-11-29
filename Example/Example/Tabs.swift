@@ -14,7 +14,7 @@ class Tabs: UITabBarController, UITabBarControllerDelegate{
         super.viewDidLoad()
         let menuNV = MenuNV()
         
-        menuNV.tabBarItem = UITabBarItem(title: "Music", image: self.resizeImage( s : "notes" ), tag: 0 )
+        menuNV.tabBarItem = UITabBarItem(title: "Menu", image: self.resizeImage( s : "man" ), tag: 0 )
 
         self.viewControllers = [menuNV]
     }
