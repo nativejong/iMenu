@@ -27,7 +27,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="/images/imenu.gif" alt="My cool logo" width="220" height="120"/>
+    <img src="/images/imenu.gif" alt="My cool logo" width="200" height="400"/>
   </a>
 
   <h3 align="center">iLogin</h3>
