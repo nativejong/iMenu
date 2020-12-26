@@ -1,0 +1,27 @@
+{
+  "name": "iMenu",
+  "version": "1.1.1",
+  "summary": "Native Jon",
+  "homepage": "https://github.com/artsy/Artsy-OSSUIFonts",
+  "license": "Code is MIT, then custom font licenses.",
+  "authors": {
+    "Native Jon": "native.jong@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/nativejong/iMenu.git",
+    "tag": "1.1.1"
+  },
+  "social_media_url": "https://twitter.com/artsy",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "public_header_files": "iMenu.framework/Headers/*.h",
+  "source_files": "iMenu.framework/Headers/*.h",
+  "vendored_frameworks": "iMenu.framework",
+  "frameworks": [
+    "UIKit",
+    "CoreText"
+  ],
+  "module_name": "iMenu"
+}

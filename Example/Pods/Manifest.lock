@@ -1,0 +1,21 @@
+PODS:
+  - iMenu (1.1.1)
+
+DEPENDENCIES:
+  - iMenu (from `https://github.com/nativejong/iMenu.git`)
+
+EXTERNAL SOURCES:
+  iMenu:
+    :git: https://github.com/nativejong/iMenu.git
+
+CHECKOUT OPTIONS:
+  iMenu:
+    :commit: b9263968b1e6dd70618ec16b28bb6a3c32d35adc
+    :git: https://github.com/nativejong/iMenu.git
+
+SPEC CHECKSUMS:
+  iMenu: ce19b7dd563c10530354e151cff04c917e2acc10
+
+PODFILE CHECKSUM: 55dc4c676ffc2fe172c92f3f14110ab304c22f7b
+
+COCOAPODS: 1.9.3
