@@ -59,7 +59,11 @@
 ## About The Project
 
 iMenu is a quick and easy way to add food menu to your iOS app.
-Access over 200,000 restaurants/menus.
+
+* Encompass over 66 Thailand cities
+* Access over 200,000 restaurants/menus
+* Access over 1,000,000 images
+
 
 
 ### Built With
