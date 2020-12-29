@@ -75,7 +75,7 @@ Required software and how to install them.
 
 1. Add to Podfile
 ```sh
-    pod 'BPod', :git => 'https://github.com/nativejong/iMenu.git'
+    pod 'iMenu', :git => 'https://github.com/nativejong/iMenu.git'
 ```
 2. Install this pod
 ```sh
